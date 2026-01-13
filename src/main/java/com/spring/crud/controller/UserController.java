@@ -2,19 +2,19 @@ package com.spring.crud.controller;
 
 
 import com.spring.crud.model.User;
-import com.spring.crud.servise.UserServise;
+import com.spring.crud.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 
 @RestController
-@RequestMapping("/Usuarios")
+@RequestMapping("/users")
 public class UserController {
 
-    private final UserServise servise;
+    private final UserService servise;
 
-    public UserController(UserServise servise) {
+    public UserController(UserService servise) {
         this.servise = servise;
     }
 

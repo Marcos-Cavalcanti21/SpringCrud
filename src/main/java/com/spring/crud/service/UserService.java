@@ -1,4 +1,4 @@
-package com.spring.crud.servise;
+package com.spring.crud.service;
 
 import com.spring.crud.model.User;
 import com.spring.crud.repository.UserRepository;
@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class UserServise {
+public class UserService {
 
     private final UserRepository repository;
 
-    public UserServise(UserRepository repository) {
+    public UserService(UserRepository repository) {
         this.repository = repository;
     }
 
