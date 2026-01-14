@@ -7,6 +7,7 @@ spring:
     username: ${DB_USER:postgres}
     password: ${DB_PASS:3091}
 
+
   jpa:
     hibernate:
       ddl-auto: update
