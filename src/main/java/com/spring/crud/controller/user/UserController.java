@@ -1,8 +1,8 @@
-package com.spring.crud.controller;
+package com.spring.crud.controller.user;
 
 
-import com.spring.crud.model.User;
-import com.spring.crud.service.UserService;
+import com.spring.crud.domain.model.User;
+import com.spring.crud.service.user.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

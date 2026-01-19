@@ -1,4 +1,0 @@
-package com.spring.crud.exception;
-
-public class GlobalException {
-}

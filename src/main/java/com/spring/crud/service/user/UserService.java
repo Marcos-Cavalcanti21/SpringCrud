@@ -1,7 +1,7 @@
-package com.spring.crud.service;
+package com.spring.crud.service.user;
 
-import com.spring.crud.model.User;
-import com.spring.crud.repository.UserRepository;
+import com.spring.crud.domain.model.User;
+import com.spring.crud.domain.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

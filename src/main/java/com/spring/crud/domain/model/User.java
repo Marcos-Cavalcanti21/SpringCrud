@@ -1,4 +1,4 @@
-package com.spring.crud.model;
+package com.spring.crud.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,27 +16,9 @@ public class User {
     private Long id;
 
     private String name;
+    private boolean admin;
     private String email;
+    private String password;
+    private String role;
 
-//    public User() {}
-//
-//    public Long getId() {
-//        return id;
-//    }
-//
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public String getEmail() {
-//        return email;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    public void setEmail(String email) {
-//        this.email = email;
-//    }
 }
